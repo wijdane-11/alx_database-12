@@ -1,1 +1,2 @@
-mysql -h localhost -u root -p < list_databases.sql
+SELECT schema_name
+FROM information_schema.schemata;
